@@ -335,7 +335,7 @@
 <script>
      
      document.getElementById('formularioAdopcion').addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevenir el envío inmediato del formulario
+        event.preventDefault(); 
 
        
         var modal = new bootstrap.Modal(document.getElementById('modalConfirmacion'));
@@ -353,7 +353,7 @@
 
         
         setTimeout(function () {
-            alert('Formulario enviado con éxito (simulado, el formulario está limpio y listo para usar nuevamente)');
+            alert('Formulario enviado con éxito');
         }, 300);  
     });
 </script>
